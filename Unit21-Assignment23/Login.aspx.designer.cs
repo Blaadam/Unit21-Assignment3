@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Unit21_Assignment23
-{
-
-
-    public partial class Login
-    {
+namespace Unit21_Assignment23 {
+    
+    
+    public partial class Login1 {
     }
 }

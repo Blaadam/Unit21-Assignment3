@@ -85,6 +85,7 @@
     <Content Include="assets\img\Warfield.PNG" />
     <Content Include="Contact.aspx" />
     <Content Include="Games.aspx" />
+    <Content Include="Home.aspx" />
     <Content Include="HTML\About.html" />
     <Content Include="HTML\Footer.html" />
     <Content Include="HTML\Home.html" />
@@ -93,7 +94,6 @@
     <Content Include="HTML\Navbar.html" />
     <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Home.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -116,6 +116,13 @@
     </Compile>
     <Compile Include="Games.aspx.designer.cs">
       <DependentUpon>Games.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -145,13 +152,6 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

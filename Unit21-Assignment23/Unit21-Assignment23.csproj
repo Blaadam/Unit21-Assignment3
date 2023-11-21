@@ -91,6 +91,7 @@
     <Content Include="HTML\Footer.html" />
     <Content Include="HTML\Games.html" />
     <Content Include="HTML\Home.html" />
+    <Content Include="HTML\Login.html" />
     <Content Include="HTML\untitled.html" />
     <Content Include="Login.aspx" />
     <Content Include="Media.aspx" />

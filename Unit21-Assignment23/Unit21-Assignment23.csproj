@@ -88,7 +88,9 @@
     <Content Include="Home.aspx" />
     <Content Include="HTML\About.html" />
     <Content Include="HTML\Footer.html" />
+    <Content Include="HTML\Games.html" />
     <Content Include="HTML\Home.html" />
+    <Content Include="HTML\untitled.html" />
     <Content Include="Login.aspx" />
     <Content Include="Media.aspx" />
     <Content Include="HTML\Navbar.html" />

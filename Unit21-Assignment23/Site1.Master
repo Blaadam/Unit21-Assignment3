@@ -31,7 +31,8 @@
                             <li class="nav-item text-light"><a class="nav-link link-light" href="Media.aspx">Media</a></li>
                             <li class="nav-item text-light"><a class="nav-link link-light" href="Contact.aspx">Contact</a></li>
                         </ul>
-                        <a class="btn btn-dark" href="Login.aspx" style="padding-left: 24px; padding-right: 24px;">Login</a>
+                        <asp:Button ID="btnLogin" runat="server" class="btn btn-dark" href="Login.aspx" Style="padding-left: 24px; padding-right: 24px;" Text="Login" OnClick="btnLogin_Click" />
+                        <asp:Button ID="btnLogout" runat="server" class="btn btn-dark" href="Login.aspx" Style="padding-left: 24px; padding-right: 24px;" Text="Not NAME? Sign Out" Visible="False" OnClick="btnLogout_Click"></asp:Button>
                     </div>
                 </div>
             </nav>

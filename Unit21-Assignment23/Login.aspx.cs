@@ -35,17 +35,27 @@ namespace Unit21_Assignment23
 				// Executing the query
 				SqlCommand Command = new SqlCommand(CheckUser, MainConnection);
 				int TempData = Convert.ToInt32(Command.ExecuteScalar().ToString());
+
+				// Temporarily close to prevent MITM
 				MainConnection.Close();
 
+				// Check if its exactly one account
 				if (TempData == 1)
 				{
+					// Reopen the connection to send a request
 					MainConnection.Open();
 
+					// Create a query to retrieve the password
 					string CheckPassword = "Select password from Users_Table where username = '" + tbUsername.Text + "'";
 					SqlCommand PasswordCommand = new SqlCommand(CheckPassword, MainConnection);
 
+					// Remove the whitespace from the password
 					string ReturnedPassword = PasswordCommand.ExecuteScalar().ToString().Replace(" ", "");
 
+					// Close the connection to optimise performance
+					MainConnection.Close();
+
+					// Compare Password Entry to the retrieved password
 					if (ReturnedPassword == tbPassword.Text)
 					{
 						Session["New"] = tbUsername.Text;

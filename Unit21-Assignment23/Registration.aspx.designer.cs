@@ -42,13 +42,13 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
-        /// TextBox1 control.
+        /// tbConfirmEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox tbConfirmEmail;
 
         /// <summary>
         /// tbUsername control.
@@ -121,6 +121,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbPostcode;
+
+        /// <summary>
+        /// btnSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
         /// btnClear control.

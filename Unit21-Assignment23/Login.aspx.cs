@@ -23,8 +23,14 @@ namespace Unit21_Assignment23
 			const string SQLStringConnection = "18worden.a@thestudio-liverpool.netConnectionString";
 			try
 			{
-				// Create a connection string
-				SqlConnection MainConnection = new SqlConnection(ConfigurationManager.ConnectionStrings[SQLStringConnection].ConnectionString);
+                // Check if data on the page is able to be submitted
+                if (!Page.IsValid)
+                {
+                    return;
+                }
+
+                // Create a connection string
+                SqlConnection MainConnection = new SqlConnection(ConfigurationManager.ConnectionStrings[SQLStringConnection].ConnectionString);
 
 				MainConnection.Open();
 

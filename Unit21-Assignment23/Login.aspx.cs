@@ -15,8 +15,7 @@ namespace Unit21_Assignment23
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			tbUsername.Focus();	
-			tbPassword.Focus();
+			tbUsername.Focus();
 		}
 
         protected void btnSubmit_Click(object sender, EventArgs e)

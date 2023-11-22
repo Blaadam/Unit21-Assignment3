@@ -11,7 +11,7 @@ namespace Unit21_Assignment23
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            btnLogin.Focus();
+            //btnLogin.Focus();
             if (Session["New"] != null)
             {
                 btnLogin.Visible = false;

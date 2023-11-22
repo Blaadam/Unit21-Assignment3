@@ -21,8 +21,9 @@
                                 <div class="mb-3">
                                     <asp:Button ID="btnSubmit" runat="server" Text="Login" class="btn btn-primary d-block w-100" type="submit" OnClick="btnSubmit_Click" />
                                 </div>
+
                                 <p class="text-muted" style="margin-bottom: 5px;">Forgot your password?</p>
-                                <p class="text-muted">Don't have an account? Create one!</p>
+                                <asp:DynamicHyperLink ID="dhlNewAcc" runat="server" NavigateUrl="~/Registration.aspx" Target="_parent">Don&#39;t have an account? Create one!</asp:DynamicHyperLink>
                             </form>
                         </div>
                     </div>

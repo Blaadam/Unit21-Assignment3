@@ -10,7 +10,7 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="card mb-5">
                         <div class="card-body d-flex flex-column align-items-center">
-                            <form class="text-center" method="post">
+                            <form class="text-center" method="post" defaultbutton="btnSubmit">
                                 <div class="mb-3">
                                     <asp:TextBox ID="tbUsername" runat="server" class="form-control" type="username" placeholder="Username"></asp:TextBox>
                                 </div>

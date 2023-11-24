@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p class="text-primary" style="text-align: center; font-weight: bold; font-size: 26px; margin-top: 8px; margin-bottom: 8px; width: 100%; padding-right: 0px; margin-right: 16px; margin-left: 0px;">Welcome to Tiger Games</p>
-    <section class="position-relative py-4 py-xl-5" style="margin-top: -23px; height: 94vh">
+    <section class="position-relative py-4 py-xl-5" style="margin-top: -23px; height: 91vh">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 col-xl-4">
@@ -55,13 +55,13 @@
                                     <asp:TextBox ID="tbAddressL4" runat="server" class="form-control" placeholder="Address Line 4"></asp:TextBox>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbPostcode" runat="server" class="" placeholder="Postcode"></asp:TextBox>
+                                    <asp:TextBox ID="tbPostcode" runat="server" class="form-control" placeholder="Postcode"></asp:TextBox>
                                 </div>
 
                                 <!-- Buttons -->
 
                                 <div class="mb-3" style="display: flex; justify-content: space-around;">
-                                    <asp:Button ID="btnSubmit" runat="server" Text="Login  " Width="48%" Style="text-align: center;" class="btn btn-primary d-block" type="submit" OnClick="btnSubmit_Click" />
+                                    <asp:Button ID="btnSubmit" runat="server" Text="Register" Width="48%" class="btn btn-primary d-block" type="submit" OnClick="btnSubmit_Click" />
                                     <asp:Button ID="btnClear" runat="server" Text="Clear" Width="48%" Style="text-align: center;" class="btn btn-primary d-block" type="submit" OnClick="btnClear_Click" />
                                 </div>
                             </form>

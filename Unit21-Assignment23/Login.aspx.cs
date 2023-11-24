@@ -16,6 +16,7 @@ namespace Unit21_Assignment23
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			tbUsername.Focus();
+			this.Form.DefaultButton = btnSubmit.UniqueID;
 		}
 
         protected void btnSubmit_Click(object sender, EventArgs e)
@@ -63,6 +64,7 @@ namespace Unit21_Assignment23
 					// Compare Password Entry to the retrieved password
 					if (ReturnedPassword == tbPassword.Text)
 					{
+						// Log the users cookeie and redirect them to the home page.
 						Session["New"] = tbUsername.Text;
 						Response.Write("Password is correct");
 						Response.Redirect("Home.aspx");

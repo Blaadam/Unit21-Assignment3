@@ -16,6 +16,7 @@ namespace Unit21_Assignment23
         protected void Page_Load(object sender, EventArgs e)
         {
             tbFirstName.Focus();
+            this.Form.DefaultButton = btnSubmit.UniqueID;
         }
 
         // Click Events
@@ -77,8 +78,8 @@ namespace Unit21_Assignment23
                 // Close the connection to optimise the Database
                 MainConnection.Close();
 
+                // Redirects the user to the login page to login
                 Response.Write("Successfully created an account. Please Login");
-
                 Response.Redirect("Login.aspx");
             }
             catch (Exception ex)

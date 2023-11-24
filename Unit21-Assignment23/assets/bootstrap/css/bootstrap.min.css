@@ -7864,7 +7864,11 @@ textarea.form-control-lg {
 }
 
 .d-block {
-    display: block !important
+    display: block !important;
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .d-grid {

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="margin: 0; padding: 0;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="w-100 d-block" src="../assets/img/Warfield.PNG" style="height: 91vh;"></div>

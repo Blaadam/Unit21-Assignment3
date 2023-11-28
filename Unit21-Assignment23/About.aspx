@@ -3,6 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <p class="text-primary" style="margin-left: 16px; margin-right: 16px; text-align: center; font-weight: bold; font-size: 26px; margin-top: 8px; margin-bottom: 8px;">About Tiger Games</p>
+    <p class="text-start" style="margin-left: 16px; margin-right: 16px; text-align: center; font-size: initial; margin-top: 8px; margin-bottom: 8px;">Tiger Games was formed in 2018 by Andy Johnson and has grown into a small/medium games development business.&nbsp; The company now employs around 50 members of staff, and it has an exciting product pipeline of video games expected to release in a few years’ time.&nbsp; Currently, the company has two live games and a beta released game.&nbsp; The two games are Warfield and League of Heroes’ and project x which is currently being beta tested by a designated user group.&nbsp;</p>
 
     <div>
         <div class="row" style="margin-top: 15px; margin-bottom: 15px; width: 100%; margin-right: 0; margin-left: 0;">

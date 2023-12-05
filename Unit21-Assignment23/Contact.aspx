@@ -12,8 +12,9 @@
                         <div class="card-body d-flex flex-column align-items-center">
                             <form class="text-center" method="post">
                                 <!-- User Details -->
-                                <div class="mb-3">
+                                <div class="mb-3" style="justify-content: center">
                                     <asp:TextBox ID="tbName" runat="server" class="form-control" type="username" placeholder="Name"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Field Required" ControlToValidate="tbName"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <div class="mb-3">

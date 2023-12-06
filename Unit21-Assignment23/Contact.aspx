@@ -22,7 +22,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbMessage" runat="server" class="form-control" type="message" placeholder="Message"></asp:TextBox>
+                                    <asp:TextBox ID="tbMessage" runat="server" class="form-control" type="message" placeholder="Message" TextMode="MultiLine" MaxLength="125" style="height: 500px; width: 300px; text-align: left; vertical-align: top;"></asp:TextBox>
                                 </div>
                                 
                                 <!-- Control Button -->

@@ -13,18 +13,20 @@
                             <form class="text-center" method="post">
                                 <!-- User Details -->
                                 <div class="mb-3" style="justify-content: center">
-                                    <asp:TextBox ID="tbName" runat="server" class="form-control" type="username" placeholder="Name"></asp:TextBox>
-                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Field Required" ControlToValidate="tbName"></asp:RequiredFieldValidator>
+                                    <asp:TextBox ID="tbName" runat="server" class="form-control" type="username" placeholder="Name" MaxLength="125"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Field Required" ControlToValidate="tbName"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbEmail" runat="server" class="form-control" type="email" placeholder="Email"></asp:TextBox>
+                                    <asp:TextBox ID="tbEmail" runat="server" class="form-control" type="email" placeholder="Email" MaxLength="125"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Field Required" ControlToValidate="tbEmail"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbMessage" runat="server" class="form-control" type="message" placeholder="Message" TextMode="MultiLine" MaxLength="125" style="height: 500px; width: 300px; text-align: left; vertical-align: top;"></asp:TextBox>
+                                    <asp:TextBox ID="tbMessage" runat="server" class="form-control" type="message" placeholder="Message" TextMode="MultiLine" MaxLength="125" Style="height: 400px; width: 300px; text-align: left; vertical-align: top;"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Field Required" ControlToValidate="tbMessage"></asp:RequiredFieldValidator>
                                 </div>
-                                
+
                                 <!-- Control Button -->
                                 <div class="mb-3">
                                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" class="btn btn-primary d-block w-100" type="submit" OnClick="btnSubmit_Click" />

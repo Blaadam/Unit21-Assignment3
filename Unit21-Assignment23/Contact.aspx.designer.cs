@@ -24,13 +24,13 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbName;
 
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// rfvName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvName;
 
         /// <summary>
         /// tbEmail control.
@@ -42,6 +42,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
+        /// rfvEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmail;
+
+        /// <summary>
         /// tbMessage control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbMessage;
+
+        /// <summary>
+        /// rfvMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMessage;
 
         /// <summary>
         /// btnSubmit control.

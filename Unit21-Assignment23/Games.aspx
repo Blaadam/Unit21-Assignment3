@@ -8,7 +8,9 @@
         <div class="row" style="margin-bottom: 10px; width: 100%; text-align: center;">
             <div class="col-md-6" style="text-align: center; width: 50%;">
                 <p class="text-primary GameTitle" style="text-align: center; font-weight: bold; font-size: 26px; margin-top: 8px; margin-bottom: 8px; width: 100%; padding-right: 0px; margin-right: 16px; margin-left: 0px;">League of Heroes</p>
-                <img class="GameImage" src="assets/img/LeagueOfHeroes.PNG" style="width: 75%; height: auto; aspect-ratio: 16/9;" width="318" height="80">
+                <a href="https://store.steampowered.com">
+                    <img class="GameImage" src="assets/img/LeagueOfHeroes.PNG" style="width: 75%; height: auto; aspect-ratio: 16/9;">
+                </a>
                 <p class="GameDescription" style="width: 100%; text-align: left;">League of Heroes is a strategic masterpiece in the world of real-time strategy (RTS) gaming. It's your chance to command an army, build a civilization, and lead your heroes to glory. In League of Heroes, your wits and tactics are your greatest weapons.</p>
                 <p class="text-secondary GameFeatures" style="width: 100%; color: #023E7D; text-align: left;">Epic Battles, Heroic Leaders, Base Building, Alliance Warfare, Diplomacy and Trade, Research and Development</p>
                 <p class="text-secondary GameMinReq" style="width: 100%; color: #023E7D; text-align: left;">
@@ -42,7 +44,9 @@
             </div>
             <div class="col-md-6" style="text-align: center; width: 50%;">
                 <p class="text-primary GameTitle" style="text-align: center; font-weight: bold; font-size: 26px; margin-top: 8px; margin-bottom: 8px; width: 100%; padding-right: 0px; margin-right: 16px; margin-left: 0px;">Warfield</p>
-                <img class="GameImage" src="assets/img/Warfield.PNG" style="width: 75%; height: auto; aspect-ratio: 16/9;" width="318" height="80">
+                <a href="https://store.steampowered.com">
+                    <img class="GameImage" src="assets/img/Warfield.PNG" style="width: 75%; height: auto; aspect-ratio: 16/9;" width="318" height="80">
+                </a>
                 <p class="GameDescription" style="width: 100%; text-align: left;">Warfield is an adrenaline-pumping first-person shooter (FPS) game that immerses you in the heart of intense battlefields. Get ready to experience the ultimate combat simulation and put your skills to the test. In Warfield, every bullet counts, and teamwork is crucial for victory.</p>
                 <p class="text-secondary GameFeatures" style="width: 100%; color: #023E7D; text-align: left;">Realistic Combat, Multiplayer Mayhem, Wide Arsenal, Stunning maps, Clan Warfare, Regular Updates</p>
                 <p class="text-secondary GameMinReq" style="width: 100%; color: #023E7D; text-align: left;">

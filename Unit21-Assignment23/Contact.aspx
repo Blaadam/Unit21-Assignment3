@@ -10,6 +10,7 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="card mb-5">
                         <div class="card-body d-flex flex-column align-items-center">
+
                             <form class="text-center" method="post">
                                 <!-- User Details -->
                                 <div class="mb-3" style="justify-content: center">
@@ -31,7 +32,9 @@
                                 <div class="mb-3">
                                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" class="btn btn-primary d-block w-100" type="submit" OnClick="btnSubmit_Click" />
                                 </div>
+
                             </form>
+
                         </div>
                     </div>
                 </div>

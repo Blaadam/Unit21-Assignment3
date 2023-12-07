@@ -29,6 +29,7 @@ namespace Unit21_Assignment23
                 // Check if data on the page is able to be submitted
                 if (!Page.IsValid)
                 {
+                    Response.Write("Bruhdda. ur page not good");
                     return;
                 }
 

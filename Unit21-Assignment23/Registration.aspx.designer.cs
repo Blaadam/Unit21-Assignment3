@@ -60,13 +60,13 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
-        /// rfvEmail control.
+        /// revEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmail;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
 
         /// <summary>
         /// tbConfirmEmail control.
@@ -78,13 +78,13 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbConfirmEmail;
 
         /// <summary>
-        /// rfvConfirmEamil control.
+        /// cvConfirmEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConfirmEamil;
+        protected global::System.Web.UI.WebControls.CompareValidator cvConfirmEmail;
 
         /// <summary>
         /// tbUsername control.
@@ -114,13 +114,13 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbPassword;
 
         /// <summary>
-        /// rfvPassword control.
+        /// revPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPassword;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revPassword;
 
         /// <summary>
         /// tbConfirmPass control.
@@ -132,13 +132,13 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbConfirmPass;
 
         /// <summary>
-        /// rfvConfirmPass control.
+        /// cvConfirmPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConfirmPass;
+        protected global::System.Web.UI.WebControls.CompareValidator cvConfirmPass;
 
         /// <summary>
         /// tbAddressL1 control.

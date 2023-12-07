@@ -24,6 +24,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbFirstName;
 
         /// <summary>
+        /// rfvFirstName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFirstName;
+
+        /// <summary>
         /// tbSurname control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbSurname;
+
+        /// <summary>
+        /// rfvSurname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSurname;
 
         /// <summary>
         /// tbEmail control.
@@ -42,6 +60,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
+        /// rfvEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmail;
+
+        /// <summary>
         /// tbConfirmEmail control.
         /// </summary>
         /// <remarks>
@@ -49,6 +76,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbConfirmEmail;
+
+        /// <summary>
+        /// rfvConfirmEamil control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConfirmEamil;
 
         /// <summary>
         /// tbUsername control.
@@ -60,6 +96,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbUsername;
 
         /// <summary>
+        /// rfvUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvUsername;
+
+        /// <summary>
         /// tbPassword control.
         /// </summary>
         /// <remarks>
@@ -67,6 +112,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbPassword;
+
+        /// <summary>
+        /// rfvPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPassword;
 
         /// <summary>
         /// tbConfirmPass control.
@@ -78,6 +132,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbConfirmPass;
 
         /// <summary>
+        /// rfvConfirmPass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConfirmPass;
+
+        /// <summary>
         /// tbAddressL1 control.
         /// </summary>
         /// <remarks>
@@ -85,6 +148,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbAddressL1;
+
+        /// <summary>
+        /// rfvAddressL1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAddressL1;
 
         /// <summary>
         /// tbAddressL2 control.
@@ -96,6 +168,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbAddressL2;
 
         /// <summary>
+        /// rfvAddressL2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAddressL2;
+
+        /// <summary>
         /// tbAddressL3 control.
         /// </summary>
         /// <remarks>
@@ -103,6 +184,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbAddressL3;
+
+        /// <summary>
+        /// rfvAddressL3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAddressL3;
 
         /// <summary>
         /// tbAddressL4 control.
@@ -114,6 +204,15 @@ namespace Unit21_Assignment23
         protected global::System.Web.UI.WebControls.TextBox tbAddressL4;
 
         /// <summary>
+        /// rfvAddressL4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAddressL4;
+
+        /// <summary>
         /// tbPostcode control.
         /// </summary>
         /// <remarks>
@@ -121,6 +220,15 @@ namespace Unit21_Assignment23
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbPostcode;
+
+        /// <summary>
+        /// rfvPostcode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPostcode;
 
         /// <summary>
         /// btnSubmit control.

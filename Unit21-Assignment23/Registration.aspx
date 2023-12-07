@@ -13,49 +13,61 @@
                             <form class="text-center" method="post">
                                 <!-- Users Name -->
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbFirstName" runat="server" class="form-control" placeholder="First Name"></asp:TextBox>
+                                    <asp:TextBox ID="tbFirstName" runat="server" class="form-control" placeholder="First Name" MaxLength="15"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvFirstName" runat="server" ErrorMessage="Field Required" ControlToValidate="tbFirstName"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <div class="mb-3">
                                     <asp:TextBox ID="tbSurname" runat="server" class="form-control" placeholder="Surname"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvSurname" runat="server" ErrorMessage="Field Required" ControlToValidate="tbSurname"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <!-- Users Email -->
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbEmail" runat="server" class="form-control" placeholder="Email" TextMode="Email"></asp:TextBox>
+                                    <asp:TextBox ID="tbEmail" runat="server" class="form-control" placeholder="Email" TextMode="Email" MaxLength="40"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Field Required" ControlToValidate="tbEmail"></asp:RequiredFieldValidator>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbConfirmEmail" runat="server" class="form-control" placeholder="Confirm Email" TextMode="Email"></asp:TextBox>
+                                    <asp:TextBox ID="tbConfirmEmail" runat="server" class="form-control" placeholder="Confirm Email" TextMode="Email" MaxLength="40"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvConfirmEamil" runat="server" ErrorMessage="Field Required" ControlToValidate="tbConfirmEmail"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <!-- Users Username -->
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbUsername" runat="server" class="form-control" placeholder="Username"></asp:TextBox>
+                                    <asp:TextBox ID="tbUsername" runat="server" class="form-control" placeholder="Username" MaxLength="21"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ErrorMessage="Field Required" ControlToValidate="tbUsername"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <!-- Users Password -->
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbPassword" runat="server" class="form-control" placeholder="Password" TextMode="Password"></asp:TextBox>
+                                    <asp:TextBox ID="tbPassword" runat="server" class="form-control" placeholder="Password" TextMode="Password" MaxLength="50"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Field Required" ControlToValidate="tbPassword"></asp:RequiredFieldValidator>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbConfirmPass" runat="server" class="form-control" placeholder="Confirm Password" TextMode="Password"></asp:TextBox>
+                                    <asp:TextBox ID="tbConfirmPass" runat="server" class="form-control" placeholder="Confirm Password" TextMode="Password" MaxLength="50"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvConfirmPass" runat="server" ErrorMessage="Field Required" ControlToValidate="tbConfirmPass"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <!-- Users Address Info -->
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbAddressL1" runat="server" class="form-control" placeholder="Address Line 1"></asp:TextBox>
+                                    <asp:TextBox ID="tbAddressL1" runat="server" class="form-control" placeholder="Address Line 1" MaxLength="21"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvAddressL1" runat="server" ErrorMessage="Field Required" ControlToValidate="tbAddressL1"></asp:RequiredFieldValidator>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbAddressL2" runat="server" class="form-control" placeholder="Address Line 2"></asp:TextBox>
+                                    <asp:TextBox ID="tbAddressL2" runat="server" class="form-control" placeholder="Address Line 2" MaxLength="21"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvAddressL2" runat="server" ErrorMessage="Field Required" ControlToValidate="tbAddressL2"></asp:RequiredFieldValidator>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbAddressL3" runat="server" class="form-control" placeholder="Address Line 3"></asp:TextBox>
+                                    <asp:TextBox ID="tbAddressL3" runat="server" class="form-control" placeholder="Address Line 3" MaxLength="21"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvAddressL3" runat="server" ErrorMessage="Field Required" ControlToValidate="tbAddressL3"></asp:RequiredFieldValidator>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbAddressL4" runat="server" class="form-control" placeholder="Address Line 4"></asp:TextBox>
+                                    <asp:TextBox ID="tbAddressL4" runat="server" class="form-control" placeholder="Address Line 4" MaxLength="21"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvAddressL4" runat="server" ErrorMessage="Field Required" ControlToValidate="tbAddressL4"></asp:RequiredFieldValidator>
                                 </div>
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbPostcode" runat="server" class="form-control" placeholder="Postcode"></asp:TextBox>
+                                    <asp:TextBox ID="tbPostcode" runat="server" class="form-control" placeholder="Postcode" MaxLength="7"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvPostcode" runat="server" ErrorMessage="Field Required" ControlToValidate="tbPostcode"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <!-- Buttons -->

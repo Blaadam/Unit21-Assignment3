@@ -12,11 +12,13 @@
                         <div class="card-body d-flex flex-column align-items-center">
                             <form class="text-center" method="post" defaultbutton="btnSubmit">
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbUsername" runat="server" class="form-control" type="username" placeholder="Username"></asp:TextBox>
+                                    <asp:TextBox ID="tbUsername" runat="server" class="form-control" type="username" placeholder="Username" MaxLength="21" OnTextChanged="tbUsername_TextChanged"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ErrorMessage="Field Required" ControlToValidate="tbUsername"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <div class="mb-3">
-                                    <asp:TextBox ID="tbPassword" runat="server" class="form-control" type="password" placeholder="Password"></asp:TextBox>
+                                    <asp:TextBox ID="tbPassword" runat="server" class="form-control" type="password" placeholder="Password" MaxLength="50" OnTextChanged="tbPassword_TextChanged"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Field Required" ControlToValidate="tbPassword"></asp:RequiredFieldValidator>
                                 </div>
 
                                 <div class="mb-3">

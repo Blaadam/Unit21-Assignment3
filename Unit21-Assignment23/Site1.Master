@@ -46,7 +46,7 @@
         </div>
 
         <!-- Footer -->
-        <footer style="background: #5c677d; padding: 0; margin: 0; height: 300px; width: 100%; position: relative; bottom: 0;">
+        <footer style="background: #5c677d; padding: 0; margin: 0; height: 300px; width: 100%;">
             <div class="container py-4 py-lg-5" style="height: 240px; width: 100%;">
                 <div class="text-start d-flex justify-content-between align-items-center pt-3" style="width: 100%;">
                     <p class="text-center text-light mb-0" style="width: 100%;">Copyright © 2023 Tiger Games</p>
